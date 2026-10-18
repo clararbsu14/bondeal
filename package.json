@@ -1,0 +1,15 @@
+{
+  "name": "betsy",
+  "version": "0.1.0",
+  "private": true,
+  "description": "BETSY — marketplace enchères mode seconde main",
+  "workspaces": [
+    "apps/frontend",
+    "apps/backend"
+  ],
+  "scripts": {
+    "frontend": "npm --prefix apps/frontend start",
+    "backend": "npm --prefix apps/backend run dev",
+    "backend:build": "npm --prefix apps/backend run build"
+  }
+}
