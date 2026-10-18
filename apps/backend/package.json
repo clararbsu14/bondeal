@@ -1,8 +1,8 @@
 {
-  "name": "@betsy/api",
+  "name": "@betsy/backend",
   "version": "0.1.0",
   "private": true,
-  "description": "API BETSY — marketplace enchères mode seconde main",
+  "description": "Backend BETSY — marketplace enchères mode seconde main",
   "main": "dist/index.js",
   "scripts": {
     "dev": "tsx watch src/index.ts",
